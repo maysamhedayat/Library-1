@@ -1,5 +1,3 @@
-# این فایل باید به صورت مستقل با دستور 'python library_app.py' در ترمینال اجرا شود.
-
 import sys
 import psycopg2
 import logging
@@ -523,4 +521,5 @@ if __name__ == '__main__':
     ex = LibraryApp()
     if ex.db_conn:
         ex.show()
+
         sys.exit(app.exec_())
